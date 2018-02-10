@@ -1,0 +1,30 @@
+body {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid;
+	border-color: #000000;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #e4ebf2;
+}
+
+th {
+	background-color: #cccccc;
+	border: 1px solid;
+}
+
+td {
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding: 5px;
+}
+
+.shortnumber {
+	text-align: right;
+}
